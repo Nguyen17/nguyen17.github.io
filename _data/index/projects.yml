@@ -1,0 +1,49 @@
+- name: Code and Learn
+  descr: "Built using Ruby on Rails, this project was my first project using a framework. The goal of the site is to provide curated resources for beginners to learn programming :)"
+  image: /assets/codeandlearn.png
+  github: https://github.com/Nguyen17/CodeandLearn
+  website: http://codeandlearn.herokuapp.com/
+
+- name: Hacktoberfest Sign In
+  descr: "I did this project during the Digital Ocean 2017 Hacktoberfest event. Since I am still inexperienced, I wanted to create a simple project for other beginners to learn and practice pulling a repo. The project ended up having over 1,500 pull requests."
+  image: /assets/hacktoberfest2017.png
+  github: https://github.com/Nguyen17/Hacktoberfest-Sign-In
+  website: https://nguyen17.github.io/Hacktoberfest-Sign-In/index.html
+
+- name: Cherry One
+  descr: "A korean fashion mock e-commerce site. This project uses only the basics of HTML and CSS using Bootstrap. Here I explore how to layout a site and played with the many features of Bootstrap."
+  image: /assets/twentyone.png
+  website: https://rebelsites.unlv.edu/~nguyen17/TwentyOne/index.html
+
+- name: Moo Color
+  descr: "Moo Color is a simple color generator. Here I practice my JavaScript skills and CSS Media Queries."
+  image: /assets/moocolor.png
+  github: https://github.com/Nguyen17/MooColor
+  website: https://nguyen17.github.io/MooColor/index.html
+
+- name: Ani Gif
+  descr: "Ani Gif is a gif generator using the Giphy API. Here I continue to practice my CSS and learn more about apis."
+  image: /assets/anigif.png
+  github: https://github.com/Nguyen17/WebProjects/tree/master/AnimeGif
+  website: https://nguyen17.github.io/WebProjects/AnimeGif/index.html
+
+- name: BitCoin Tracker
+  descr: "BitCoin Tracker displays the current bitcoin price as well as past prices in a given month."
+  image: /assets/bitcointracker.png
+  github: https://github.com/Nguyen17/bitcoin_tracker
+  website: https://floating-hamlet-88910.herokuapp.com/index.html
+
+- name: Quoter
+  descr: "A simple quote generator."
+  image: /assets/quoter.png
+  github: https://github.com/Nguyen17/WebProjects/tree/master/quoteapp
+  website: https://nguyen17.github.io/WebProjects/quoteapp/index.html
+
+- name: Bored as FAQ
+  descr: "This is a project I did for giggles with friends lol. I pulled the comics from the xKCD API and used PaperCSS for the site styling."
+  image: /assets/boredasfaq.png
+  github: https://github.com/Nguyen17/BoredasFAQ
+  website: https://nguyen17.github.io/BoredasFAQ/index.html
+
+
+  
