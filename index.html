@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>timmy nguyen | portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="src/stylesheets/main.css" />
+</head>
+
+<body>
+    <!-- Display Header Content -->
+    <header class="header-content">
+        <!-- render social links -->
+        <div class="social">
+            <h1>@its timmy nguyen</h1>
+        </div>
+        <!-- render things i am interested in -->
+        <div class="title-list">
+            <h2>I am interested in . . .</h2>
+            <ul>
+                <li>front end development</li>
+                <li>user interface design</li>
+                <li>user experience design</li>
+                <li>mobile app development</li>
+            </ul>
+
+            <span>scroll bottom</span>
+        </div>
+
+        <!-- render a project -->
+        <div class="project-one">
+
+            <!-- project image -->
+            <div class="image-block">
+                <img src="./src/assets/images/couponit.png" alt="" />
+
+            </div>
+            <div class="project-info">
+                <!-- project info -->
+                <div class="project-info-list">
+                    <ul>
+                        <li>Team project leader</li>
+                        <li>UNLV computer science senior design 2017 - 1st place</li>
+                        <li>Developed user interface of mobile app and website</li>
+                    </ul>
+                </div>
+                <!-- project tools / languages -->
+                <div class="project-tools">
+                    <ul>
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap 4</li>
+                    </ul>
+                </div>
+
+                <!-- project description -->
+                <div class="project-description">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+                        iste pariatur. Quo at eius reprehenderit fugit dolorum vero,
+                        quidem unde odit temporibus voluptas debitis soluta aliquam
+                        excepturi corrupti incidunt quam!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Web Project -->
+    <section class="web-project">
+        <section class="project-two">
+            <img src="" alt="" />
+
+            <!-- description -->
+            <div class="project-description"></div>
+        </section>
+        <section class="project-three">
+            <img src="" alt="" />
+
+            <!-- description -->
+            <div class="project-description"></div>
+        </section>
+    </section>
+
+    <!-- Section Personal -->
+    <section class="personal">
+        <!-- About me -->
+        <section class="about">
+            <div class="description"></div>
+        </section>
+
+        <!-- Focus -->
+        <section class="focus">
+            <ul>
+                <li>front end</li>
+                <li>interaction design</li>
+                <li>mobile applications</li>
+                <li>design patterns</li>
+                <li>graphic design</li>
+            </ul>
+        </section>
+
+        <!-- Skillset -->
+        <section class="skillset">
+            <ul>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>Swift</li>
+                <li>React / React Native</li>
+            </ul>
+        </section>
+
+        <!-- Tools -->
+        <section class="tools">
+            <ul>
+                <li>Affinity Photo</li>
+                <li>Affinity Designer</li>
+                <li>Adobe XD</li>
+                <li>Sketch</li>
+                <li>XCode</li>
+            </ul>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer--title">
+                <h1>Interested?</h1>
+            </div>
+
+            <div class="footer-email">
+                <span>message.timmynguyen@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+        TweenMax.from(".social h1", 2, {
+            delay: 0,
+            x: 20,
+            opacity: 0
+        });
+
+        TweenMax.from(".title-list h2", 2, {
+            delay: 0.6,
+            y: 20,
+            opacity: 0
+        });
+        TweenMax.staggerFrom(".title-list ul li", 2, {
+            delay: 0.9,
+            y: 20,
+            opacity: 0
+        }, 0.2);
+        TweenMax.from(".title-list span", 2, {
+            delay: 1.2,
+            y: 20,
+            opacity: 0
+        });
+
+        TweenMax.from(".image-block", 2, {
+            delay: 0.9,
+            y: 20,
+            opacity: 0
+        });
+        TweenMax.from(".image-block img", 2, {
+            delay: 1,
+            opacity: 0
+        })
+        TweenMax.from(".project-info p", 2, {
+            delay: 1.2,
+            y: 20,
+            opacity: 0
+        });
+
+        TweenMax.staggerFrom(".project-info ul li", 2, {
+            delay: 1.2,
+            y: 20,
+            opacity: 0
+        }, 0.1);
+    </script>
+</body>
+
+</html>
