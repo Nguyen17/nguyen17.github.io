@@ -53,52 +53,7 @@ $primaryColor: #C6CAE2;
 }
 
 
-.project-one {
-    position: relative;
-    grid-column: 4 / span 9;
-    grid-row: 1 / span 5;
-    display: grid;
-    padding: 40px;
 
-    .image-block {
-        position: relative;
-        grid-column: 1 / span 6;
-        grid-row: 1 / span 5;
-        margin-bottom: 20px;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-
-    .project-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        grid-column: 1 / span 6;
-        grid-row: 6 / span 1;
-        font-size: 12px;
-        line-height: 1.25;
-
-        ul {
-            list-style-type: none;
-
-            li {
-                margin: 10px;
-            }
-        }
-
-
-        .project-description {
-            width: 45ch;
-            line-height: 1.55;
-            font-kerning: auto;
-        }
-    }
-
-}
 
 
 // Mobile Response
@@ -116,7 +71,7 @@ $primaryColor: #C6CAE2;
 
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(6, 1fr);
-
+        height: auto;
 
     }
 
