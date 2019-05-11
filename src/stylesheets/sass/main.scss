@@ -1,8 +1,14 @@
 @import './head.scss';
-@import './project.scss';
+
 @import './section.scss';
 @import './footer.scss';
+@import './project.scss';
 
 * {
     font-family: "Merriweather";
+}
+
+a {
+    color: #f4a0c5;
+    font-size: 14px;
 }

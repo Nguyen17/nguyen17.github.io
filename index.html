@@ -16,7 +16,7 @@
 
 <body>
     <!-- Display Header Content -->
-    <header class="header-content">
+    <header class="header-content" role="header">
         <!-- render social links -->
         <div class="social">
             <h1>@its timmy nguyen</h1>
@@ -39,7 +39,7 @@
 
             <!-- project image -->
             <div class="image-block">
-                <img src="./src/assets/images/couponit.png" alt="" />
+                <img src="./src/assets/images/couponit.png" alt="project coupon it screenshot" />
 
             </div>
             <div class="project-info">
@@ -49,6 +49,8 @@
                         <li>Team project leader</li>
                         <li>UNLV computer science senior design 2017 - 1st place</li>
                         <li>Developed user interface of mobile app and website</li>
+                        <li>Developed ui components</li>
+                        <li>Integrated apis to retrieve local discounts.</li>
                     </ul>
                 </div>
                 <!-- project tools / languages -->
@@ -58,36 +60,92 @@
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>Bootstrap 4</li>
+                        <li>Flutter</li>
                     </ul>
                 </div>
 
                 <!-- project description -->
                 <div class="project-description">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
-                        iste pariatur. Quo at eius reprehenderit fugit dolorum vero,
-                        quidem unde odit temporibus voluptas debitis soluta aliquam
-                        excepturi corrupti incidunt quam!
+                        <strong>Coupon It</strong> is an ecommerce application made using the Flutter framework for my
+                        senior captstone project at UNLV. The project consists of 7 team members working together with a
+                        diverse skillset. This project was my first introduction to mobile development.
                     </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Nguyen17/CouponIt">github</a>
+                        <a href="https://nguyen17.github.io/CouponIt/">site</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- Section Web Project -->
-    <section class="web-project">
-        <section class="project-two">
-            <img src="" alt="" />
+    <section class="web-project" role="project display">
 
-            <!-- description -->
-            <div class="project-description"></div>
-        </section>
-        <section class="project-three">
-            <img src="" alt="" />
+        <div class="project-one grid-place-left ">
 
-            <!-- description -->
-            <div class="project-description"></div>
-        </section>
+            <!-- project image -->
+            <div class="image-block">
+                <img src="./src/assets/images/adidas.png" alt="project adidas screenshot" />
+
+            </div>
+            <div class=" project-info">
+                <!-- project tools / languages -->
+                <div class="project-tools">
+                    <ul>
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>JQuery</li>
+                    </ul>
+                </div>
+
+                <!-- project description -->
+                <div class="project-description">
+                    <p>
+                        This is my interpretation of the Adidas Y3 site. For this project, I wanted to have a better
+                        understanding on how components were being layed out. In addition, I wanted to attempt the
+                        basics of web animation through the use of JQuery.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Nguyen17/site_designs">github</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-one grid-place-right ">
+
+            <!-- project image -->
+            <div class="image-block">
+                <img src="./src/assets/images/codeandlearn.png" alt="project code and learn screenshot" />
+            </div>
+            <div class=" project-info">
+                <div class="project-tools">
+                    <ul>
+                        <li>Ruby</li>
+                        <li>Ruby on Rails</li>
+                        <li>Mobile Responsive</li>
+                    </ul>
+                </div>
+
+                <!-- project description -->
+                <div class="project-description">
+                    <p>
+                        Code and Learn was a project for my human interaction class at UNLV. In this class, I learn
+                        about the principles of good design and usability. This project aim to gather beginner friendly
+                        resources in a single convenient place.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Nguyen17/CodeandLearn">github</a>
+                        <a href="http://codeandlearn.herokuapp.com/">site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!-- Section Personal -->
@@ -157,6 +215,11 @@
             y: 20,
             opacity: 0
         });
+        TweenMax.staggerFrom(".project-links a", 2, {
+            delay: 0.9,
+            y: 20,
+            opacity: 0
+        }, 0.2);
         TweenMax.staggerFrom(".title-list ul li", 2, {
             delay: 0.9,
             y: 20,
