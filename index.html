@@ -1,268 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="nguyen17" />
+    <meta
+      name="description"
+      content="Personal portfolio of timmy nguyen(nguyen17)."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>timmy nguyen | portfolio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet" />
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <link rel="stylesheet" href="src/stylesheets/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Display Header Content -->
     <header class="header-content" role="header">
-        <!-- render social links -->
-        <div class="social">
-            <h1>@its timmy nguyen</h1>
+      <!-- render social links -->
+      <div class="social">
+        <h1>@its timmy nguyen</h1>
+      </div>
+      <!-- render things i am interested in -->
+      <div class="title-list">
+        <h2>I am interested in . . .</h2>
+        <ul>
+          <li>front end development</li>
+          <li>user interface design</li>
+          <li>user experience</li>
+          <li>mobile app development</li>
+        </ul>
+
+        <div class="scroll-bottom">
+          <span>scroll bottom</span>
+          <p>&#9660;</p>
         </div>
-        <!-- render things i am interested in -->
-        <div class="title-list">
-            <h2>I am interested in . . .</h2>
+      </div>
+
+      <!-- render a project -->
+      <div class="project-one">
+        <!-- project image -->
+        <div class="image-block">
+          <img
+            src="./src/assets/images/couponit.png"
+            alt="nguyen17 project coupon it screenshot"
+          />
+        </div>
+        <div class="project-info">
+          <!-- project info -->
+          <div class="project-info-list">
             <ul>
-                <li>front end development</li>
-                <li>user interface design</li>
-                <li>user experience</li>
-                <li>mobile app development</li>
+              <li>Team project leader</li>
+              <li>UNLV computer science senior design 2018 - 1st place</li>
+              <li>Developed user interface of mobile app and website</li>
+              <li>Developed ui components</li>
+              <li>Integrated apis to retrieve local discounts.</li>
             </ul>
+          </div>
+          <!-- project tools / languages -->
+          <div class="project-tools">
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap 4</li>
+              <li>Flutter</li>
+            </ul>
+          </div>
 
-            <div class="scroll-bottom">
-                <span>scroll bottom</span>
-                <p>&#9660;</p>
+          <!-- project description -->
+          <div class="project-description">
+            <p>
+              <strong>Coupon It</strong> is an ecommerce application made using
+              the Flutter framework for my senior captstone project at UNLV. The
+              project consists of 7 team members working together with a diverse
+              skillset. This project was my first introduction to mobile
+              development.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Nguyen17/CouponIt">github</a>
+              <a href="https://nguyen17.github.io/CouponIt/">site</a>
             </div>
+          </div>
         </div>
-
-        <!-- render a project -->
-        <div class="project-one">
-
-            <!-- project image -->
-            <div class="image-block">
-                <img src="./src/assets/images/couponit.png" alt="project coupon it screenshot" />
-
-            </div>
-            <div class="project-info">
-                <!-- project info -->
-                <div class="project-info-list">
-                    <ul>
-                        <li>Team project leader</li>
-                        <li>UNLV computer science senior design 2018 - 1st place</li>
-                        <li>Developed user interface of mobile app and website</li>
-                        <li>Developed ui components</li>
-                        <li>Integrated apis to retrieve local discounts.</li>
-                    </ul>
-                </div>
-                <!-- project tools / languages -->
-                <div class="project-tools">
-                    <ul>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap 4</li>
-                        <li>Flutter</li>
-                    </ul>
-                </div>
-
-                <!-- project description -->
-                <div class="project-description">
-                    <p>
-                        <strong>Coupon It</strong> is an ecommerce application made using the Flutter framework for my
-                        senior captstone project at UNLV. The project consists of 7 team members working together with a
-                        diverse skillset. This project was my first introduction to mobile development.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/Nguyen17/CouponIt">github</a>
-                        <a href="https://nguyen17.github.io/CouponIt/">site</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </header>
 
     <!-- Section Web Project -->
     <section class="web-project" role="project display">
-
-        <div class="project-two">
-
-            <!-- project image -->
-            <div class="image-block">
-                <img src="./src/assets/images/adidas.png" alt="project adidas screenshot" />
-
-            </div>
-            <div class=" project-info">
-                <!-- project tools / languages -->
-                <div class="project-tools">
-                    <ul>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>JQuery</li>
-                    </ul>
-                </div>
-
-                <!-- project description -->
-                <div class="project-description">
-                    <p>
-                        This is my interpretation of the Adidas Y3 site. For this project, I wanted to have a better
-                        understanding on how components were being layed out. In addition, I wanted to attempt the
-                        basics of web animation through the use of JQuery.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/Nguyen17/site_designs">github</a>
-
-                    </div>
-                </div>
-            </div>
+      <div class="project-two">
+        <!-- project image -->
+        <div class="image-block">
+          <img
+            src="./src/assets/images/adidas.png"
+            alt="nguyen17 project adidas screenshot"
+          />
         </div>
+        <div class=" project-info">
+          <!-- project tools / languages -->
+          <div class="project-tools">
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>JQuery</li>
+            </ul>
+          </div>
 
-        <div class="project-one grid-place-right ">
-
-            <!-- project image -->
-            <div class="image-block">
-                <img src="./src/assets/images/codeandlearn.png" alt="project code and learn screenshot" />
+          <!-- project description -->
+          <div class="project-description">
+            <p>
+              This is my interpretation of the Adidas Y3 site. For this project,
+              I wanted to have a better understanding on how components were
+              being layed out. In addition, I wanted to attempt the basics of
+              web animation through the use of JQuery.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Nguyen17/site_designs">github</a>
             </div>
-            <div class=" project-info">
-                <div class="project-tools">
-                    <ul>
-                        <li>Ruby</li>
-                        <li>Ruby on Rails</li>
-                        <li>Mobile Responsive</li>
-                    </ul>
-                </div>
-
-                <!-- project description -->
-                <div class="project-description">
-                    <p>
-                        Code and Learn was a project for my human interaction class at UNLV. In this class, I learn
-                        about the principles of good design and usability. This project aim to gather beginner friendly
-                        resources in a single convenient place.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/Nguyen17/CodeandLearn">github</a>
-                        <a href="http://codeandlearn.herokuapp.com/">site</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
 
+      <div class="project-one grid-place-right ">
+        <!-- project image -->
+        <div class="image-block">
+          <img
+            src="./src/assets/images/codeandlearn.png"
+            alt="nguyen17 project code and learn screenshot"
+          />
+        </div>
+        <div class=" project-info">
+          <div class="project-tools">
+            <ul>
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>Mobile Responsive</li>
+            </ul>
+          </div>
+
+          <!-- project description -->
+          <div class="project-description">
+            <p>
+              Code and Learn was a project for my human interaction class at
+              UNLV. In this class, I learn about the principles of good design
+              and usability. This project aim to gather beginner friendly
+              resources in a single convenient place.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Nguyen17/CodeandLearn">github</a>
+              <a href="http://codeandlearn.herokuapp.com/">site</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Section Personal -->
     <section class="personal">
-        <!-- About me -->
-        <section class="about">
-            <h1>A Little About Me</h1>
-            <div class="description">
-                <p>
-                    I graduated from UNLV, with a B.A in Computer Science. I have a strong passion to learn what I love
-                    and am always learning new things.
-                </p>
-            </div>
+      <!-- About me -->
+      <section class="about">
+        <h1>A Little About Me</h1>
+        <div class="description">
+          <p>
+            I graduated from UNLV, with a B.A in Computer Science. I have a
+            strong passion to learn what I love and am always learning new
+            things.
+          </p>
+        </div>
+      </section>
+
+      <!-- Focus -->
+      <div class="skill-list">
+        <section class="focus">
+          <h1>Focus</h1>
+          <ul>
+            <li>Front end</li>
+            <li>Interface design</li>
+            <li>Mobile applications</li>
+          </ul>
         </section>
 
-        <!-- Focus -->
-        <div class="skill-list">
-            <section class="focus">
+        <!-- Skillset -->
+        <section class="skillset">
+          <h1>Skillset</h1>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>React / React Native</li>
+          </ul>
+        </section>
 
-                <h1>Focus</h1>
-                <ul>
-                    <li>Front end</li>
-                    <li>Interface design</li>
-                    <li>Mobile applications</li>
-                </ul>
-            </section>
-
-            <!-- Skillset -->
-            <section class="skillset">
-                <h1>Skillset</h1>
-                <ul>
-                    <li>HTML / CSS</li>
-                    <li>JavaScript</li>
-                    <li>Ruby</li>
-                    <li>React / React Native</li>
-                </ul>
-            </section>
-
-            <!-- Tools -->
-            <section class="tools">
-                <h1>Tools</h1>
-                <ul>
-                    <li>Affinity Photo</li>
-                    <li>Affinity Designer</li>
-                    <li>Adobe XD</li>
-                    <li>XCode</li>
-                </ul>
-            </section>
-        </div>
+        <!-- Tools -->
+        <section class="tools">
+          <h1>Tools</h1>
+          <ul>
+            <li>Affinity Photo</li>
+            <li>Affinity Designer</li>
+            <li>Adobe XD</li>
+            <li>XCode</li>
+          </ul>
+        </section>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-wrapper">
-            <!-- <div class="footer--title">
+      <div class="footer-wrapper">
+        <!-- <div class="footer--title">
                 <h1>Interested?</h1>
             </div> -->
 
-            <div class="footer-email">
-                <span id="contact-email">message.timmynguyen@gmail.com</span>
-            </div>
+        <div class="footer-email">
+          <span id="contact-email">message.timmynguyen@gmail.com</span>
         </div>
+      </div>
     </footer>
 
     <!-- Scripts -->
     <script type="text/javascript">
-        TweenMax.from(".social h1", 2, {
-            delay: 0,
-            x: 20,
-            opacity: 0
-        });
+      TweenMax.from(".social h1", 2, {
+        delay: 0,
+        x: 20,
+        opacity: 0
+      });
 
-        TweenMax.from(".title-list h2", 2, {
-            delay: 0.6,
-            y: 20,
-            opacity: 0
-        });
-        TweenMax.staggerFrom(".project-links a", 2, {
-            delay: 0.9,
-            y: 20,
-            opacity: 0
-        }, 0.2);
-        TweenMax.staggerFrom(".title-list ul li", 2, {
-            delay: 0.9,
-            y: 20,
-            opacity: 0
-        }, 0.2);
-        TweenMax.from(".title-list span", 2, {
-            delay: 1.2,
-            y: 20,
-            opacity: 0
-        });
+      TweenMax.from(".title-list h2", 2, {
+        delay: 0.6,
+        y: 20,
+        opacity: 0
+      });
+      TweenMax.staggerFrom(
+        ".project-links a",
+        2,
+        {
+          delay: 0.9,
+          y: 20,
+          opacity: 0
+        },
+        0.2
+      );
+      TweenMax.staggerFrom(
+        ".title-list ul li",
+        2,
+        {
+          delay: 0.9,
+          y: 20,
+          opacity: 0
+        },
+        0.2
+      );
+      TweenMax.from(".title-list span", 2, {
+        delay: 1.2,
+        y: 20,
+        opacity: 0
+      });
 
-        TweenMax.from(".image-block", 2, {
-            delay: 0.9,
-            y: 20,
-            opacity: 0
-        });
-        TweenMax.from(".image-block img", 2, {
-            delay: 1,
-            opacity: 0
-        })
-        TweenMax.from(".project-info p", 2, {
-            delay: 1.2,
-            y: 20,
-            opacity: 0
-        });
+      TweenMax.from(".image-block", 2, {
+        delay: 0.9,
+        y: 20,
+        opacity: 0
+      });
+      TweenMax.from(".image-block img", 2, {
+        delay: 1,
+        opacity: 0
+      });
+      TweenMax.from(".project-info p", 2, {
+        delay: 1.2,
+        y: 20,
+        opacity: 0
+      });
 
-        TweenMax.staggerFrom(".project-info ul li", 2, {
-            delay: 1.2,
-            y: 20,
-            opacity: 0
-        }, 0.1);
+      TweenMax.staggerFrom(
+        ".project-info ul li",
+        2,
+        {
+          delay: 1.2,
+          y: 20,
+          opacity: 0
+        },
+        0.1
+      );
     </script>
-</body>
-
+  </body>
 </html>
