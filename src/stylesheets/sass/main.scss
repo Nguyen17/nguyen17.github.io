@@ -5,11 +5,16 @@
 @import './project.scss';
 @import './personal.scss';
 
+
+:root {
+    font-size: 100%;
+}
+
 * {
     font-family: "Merriweather";
 }
 
 a {
     color: #f4a0c5;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
